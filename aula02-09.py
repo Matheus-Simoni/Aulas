@@ -19,3 +19,7 @@ def pesquisa_binaria(lista, item): #Lista precisa estar obrigatoriamente em orde
     else:
       baixo = meio + 1
   return None
+
+
+#Calculo de complexidade: Quantas tentativas leva para resolver no pior cenário
+#calcular quantos passo a pesquisa binaria levará = log₂(n)
