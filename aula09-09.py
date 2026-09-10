@@ -1,4 +1,4 @@
-#ordenação
+#ordenação por seleção
 
 def buscaMenor(arr):
   menor = arr[0]
@@ -9,7 +9,7 @@ def buscaMenor(arr):
       menor_indice = i
   return menor_indice
 
-  def ordenacaoporSelecao(arr):
+def ordenacaoporSelecao(arr):
   novoArr = []
   for i in range(len(arr)):
     menor = buscaMenor(arr)
