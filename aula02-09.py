@@ -1,3 +1,6 @@
+#pesquisa sequencial/binaria 
+#usado na atividade 1 e 2 
+
 def pesquisa_sequencial(lista, item): 
 #faz item a item, mais lento, porém interresante por ser simples para pequenos códigos
     for i, j in enumerate(lista):
