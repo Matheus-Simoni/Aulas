@@ -12,13 +12,9 @@ def cotar(data):
         return res['value'][0]['cotacaoCompra']
 
     else:
-        dia_anterior = datetime.datetime.strptime(
-            data, "%m-%d-%Y"
-        ) - datetime.timedelta(1)
+        dia_anterior = datetime.datetime.strptime(data, "%m-%d-%Y") - datetime.timedelta(1)
 
-        dia_anterior = datetime.datetime.strftime(
-            dia_anterior, "%m-%d-%Y"
-        )
+        dia_anterior = datetime.datetime.strftime(dia_anterior, "%m-%d-%Y")
 
         return cotar(dia_anterior)
 
